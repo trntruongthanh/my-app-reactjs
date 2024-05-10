@@ -1,0 +1,19 @@
+.better-clock {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+    text-align: center;
+
+    &__time {
+
+        color: rgb(121, 216, 33);
+        font-size: 48px;
+    }
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
